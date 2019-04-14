@@ -30,3 +30,8 @@ if (process.env.NODE_ENV === 'dev') {
 }
 
 process.env.URLDB = urlDB;
+
+// =======================
+// Base de datos
+// =======================
+process.env.CLIENT_ID = process.env.CLIENT_ID || '752965751007-q7u93p5ofdcrh6bojua7oacu4qd1smtm.apps.googleusercontent.com';
